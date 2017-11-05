@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEB416C91FAEAE19006BEB74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB416C81FAEAE19006BEB74 /* AppDelegate.swift */; };
+		BEB416CB1FAEAE19006BEB74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB416CA1FAEAE19006BEB74 /* ViewController.swift */; };
+		BEB416CE1FAEAE19006BEB74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB416CC1FAEAE19006BEB74 /* Main.storyboard */; };
+		BEB416D01FAEAE19006BEB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB416CF1FAEAE19006BEB74 /* Assets.xcassets */; };
+		BEB416D31FAEAE19006BEB74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB416D11FAEAE19006BEB74 /* LaunchScreen.storyboard */; };
+		BEB416DE1FAEAE19006BEB74 /* HMSegmentedControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB416DD1FAEAE19006BEB74 /* HMSegmentedControlTests.swift */; };
+		BEB416E91FAEAE19006BEB74 /* HMSegmentedControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB416E81FAEAE19006BEB74 /* HMSegmentedControlUITests.swift */; };
+		BEB416FA1FAEAE3F006BEB74 /* HMScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB416F71FAEAE3F006BEB74 /* HMScrollView.swift */; };
+		BEB416FB1FAEAE3F006BEB74 /* HMSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB416F81FAEAE3F006BEB74 /* HMSegmentedControl.swift */; };
+		BEB416FC1FAEAE3F006BEB74 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB416F91FAEAE3F006BEB74 /* Enums.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEB416DA1FAEAE19006BEB74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEB416BD1FAEAE19006BEB74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEB416C41FAEAE19006BEB74;
+			remoteInfo = HMSegmentedControl;
+		};
+		BEB416E51FAEAE19006BEB74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEB416BD1FAEAE19006BEB74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEB416C41FAEAE19006BEB74;
+			remoteInfo = HMSegmentedControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEB416C51FAEAE19006BEB74 /* HMSegmentedControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMSegmentedControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB416C81FAEAE19006BEB74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEB416CA1FAEAE19006BEB74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEB416CD1FAEAE19006BEB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEB416CF1FAEAE19006BEB74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEB416D21FAEAE19006BEB74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEB416D41FAEAE19006BEB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB416D91FAEAE19006BEB74 /* HMSegmentedControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMSegmentedControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB416DD1FAEAE19006BEB74 /* HMSegmentedControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSegmentedControlTests.swift; sourceTree = "<group>"; };
+		BEB416DF1FAEAE19006BEB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB416E41FAEAE19006BEB74 /* HMSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMSegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB416E81FAEAE19006BEB74 /* HMSegmentedControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSegmentedControlUITests.swift; sourceTree = "<group>"; };
+		BEB416EA1FAEAE19006BEB74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB416F71FAEAE3F006BEB74 /* HMScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMScrollView.swift; sourceTree = "<group>"; };
+		BEB416F81FAEAE3F006BEB74 /* HMSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMSegmentedControl.swift; sourceTree = "<group>"; };
+		BEB416F91FAEAE3F006BEB74 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEB416C21FAEAE19006BEB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB416D61FAEAE19006BEB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB416E11FAEAE19006BEB74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEB416BC1FAEAE19006BEB74 = {
+			isa = PBXGroup;
+			children = (
+				BEB416C71FAEAE19006BEB74 /* HMSegmentedControl */,
+				BEB416DC1FAEAE19006BEB74 /* HMSegmentedControlTests */,
+				BEB416E71FAEAE19006BEB74 /* HMSegmentedControlUITests */,
+				BEB416C61FAEAE19006BEB74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEB416C61FAEAE19006BEB74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEB416C51FAEAE19006BEB74 /* HMSegmentedControl.app */,
+				BEB416D91FAEAE19006BEB74 /* HMSegmentedControlTests.xctest */,
+				BEB416E41FAEAE19006BEB74 /* HMSegmentedControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEB416C71FAEAE19006BEB74 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				BEB416F61FAEAE3F006BEB74 /* HMSegmentControl */,
+				BEB416C81FAEAE19006BEB74 /* AppDelegate.swift */,
+				BEB416CA1FAEAE19006BEB74 /* ViewController.swift */,
+				BEB416CC1FAEAE19006BEB74 /* Main.storyboard */,
+				BEB416CF1FAEAE19006BEB74 /* Assets.xcassets */,
+				BEB416D11FAEAE19006BEB74 /* LaunchScreen.storyboard */,
+				BEB416D41FAEAE19006BEB74 /* Info.plist */,
+			);
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		BEB416DC1FAEAE19006BEB74 /* HMSegmentedControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEB416DD1FAEAE19006BEB74 /* HMSegmentedControlTests.swift */,
+				BEB416DF1FAEAE19006BEB74 /* Info.plist */,
+			);
+			path = HMSegmentedControlTests;
+			sourceTree = "<group>";
+		};
+		BEB416E71FAEAE19006BEB74 /* HMSegmentedControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEB416E81FAEAE19006BEB74 /* HMSegmentedControlUITests.swift */,
+				BEB416EA1FAEAE19006BEB74 /* Info.plist */,
+			);
+			path = HMSegmentedControlUITests;
+			sourceTree = "<group>";
+		};
+		BEB416F61FAEAE3F006BEB74 /* HMSegmentControl */ = {
+			isa = PBXGroup;
+			children = (
+				BEB416F71FAEAE3F006BEB74 /* HMScrollView.swift */,
+				BEB416F81FAEAE3F006BEB74 /* HMSegmentedControl.swift */,
+				BEB416F91FAEAE3F006BEB74 /* Enums.swift */,
+			);
+			path = HMSegmentControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEB416C41FAEAE19006BEB74 /* HMSegmentedControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB416ED1FAEAE19006BEB74 /* Build configuration list for PBXNativeTarget "HMSegmentedControl" */;
+			buildPhases = (
+				BEB416C11FAEAE19006BEB74 /* Sources */,
+				BEB416C21FAEAE19006BEB74 /* Frameworks */,
+				BEB416C31FAEAE19006BEB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMSegmentedControl;
+			productName = HMSegmentedControl;
+			productReference = BEB416C51FAEAE19006BEB74 /* HMSegmentedControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEB416D81FAEAE19006BEB74 /* HMSegmentedControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB416F01FAEAE19006BEB74 /* Build configuration list for PBXNativeTarget "HMSegmentedControlTests" */;
+			buildPhases = (
+				BEB416D51FAEAE19006BEB74 /* Sources */,
+				BEB416D61FAEAE19006BEB74 /* Frameworks */,
+				BEB416D71FAEAE19006BEB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEB416DB1FAEAE19006BEB74 /* PBXTargetDependency */,
+			);
+			name = HMSegmentedControlTests;
+			productName = HMSegmentedControlTests;
+			productReference = BEB416D91FAEAE19006BEB74 /* HMSegmentedControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEB416E31FAEAE19006BEB74 /* HMSegmentedControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEB416F31FAEAE19006BEB74 /* Build configuration list for PBXNativeTarget "HMSegmentedControlUITests" */;
+			buildPhases = (
+				BEB416E01FAEAE19006BEB74 /* Sources */,
+				BEB416E11FAEAE19006BEB74 /* Frameworks */,
+				BEB416E21FAEAE19006BEB74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEB416E61FAEAE19006BEB74 /* PBXTargetDependency */,
+			);
+			name = HMSegmentedControlUITests;
+			productName = HMSegmentedControlUITests;
+			productReference = BEB416E41FAEAE19006BEB74 /* HMSegmentedControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEB416BD1FAEAE19006BEB74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "黄伯驹";
+				TargetAttributes = {
+					BEB416C41FAEAE19006BEB74 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					BEB416D81FAEAE19006BEB74 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEB416C41FAEAE19006BEB74;
+					};
+					BEB416E31FAEAE19006BEB74 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEB416C41FAEAE19006BEB74;
+					};
+				};
+			};
+			buildConfigurationList = BEB416C01FAEAE19006BEB74 /* Build configuration list for PBXProject "HMSegmentedControl" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEB416BC1FAEAE19006BEB74;
+			productRefGroup = BEB416C61FAEAE19006BEB74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEB416C41FAEAE19006BEB74 /* HMSegmentedControl */,
+				BEB416D81FAEAE19006BEB74 /* HMSegmentedControlTests */,
+				BEB416E31FAEAE19006BEB74 /* HMSegmentedControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEB416C31FAEAE19006BEB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB416D31FAEAE19006BEB74 /* LaunchScreen.storyboard in Resources */,
+				BEB416D01FAEAE19006BEB74 /* Assets.xcassets in Resources */,
+				BEB416CE1FAEAE19006BEB74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB416D71FAEAE19006BEB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB416E21FAEAE19006BEB74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEB416C11FAEAE19006BEB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB416CB1FAEAE19006BEB74 /* ViewController.swift in Sources */,
+				BEB416FB1FAEAE3F006BEB74 /* HMSegmentedControl.swift in Sources */,
+				BEB416FC1FAEAE3F006BEB74 /* Enums.swift in Sources */,
+				BEB416FA1FAEAE3F006BEB74 /* HMScrollView.swift in Sources */,
+				BEB416C91FAEAE19006BEB74 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB416D51FAEAE19006BEB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB416DE1FAEAE19006BEB74 /* HMSegmentedControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEB416E01FAEAE19006BEB74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEB416E91FAEAE19006BEB74 /* HMSegmentedControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEB416DB1FAEAE19006BEB74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEB416C41FAEAE19006BEB74 /* HMSegmentedControl */;
+			targetProxy = BEB416DA1FAEAE19006BEB74 /* PBXContainerItemProxy */;
+		};
+		BEB416E61FAEAE19006BEB74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEB416C41FAEAE19006BEB74 /* HMSegmentedControl */;
+			targetProxy = BEB416E51FAEAE19006BEB74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEB416CC1FAEAE19006BEB74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB416CD1FAEAE19006BEB74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEB416D11FAEAE19006BEB74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEB416D21FAEAE19006BEB74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEB416EB1FAEAE19006BEB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEB416EC1FAEAE19006BEB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEB416EE1FAEAE19006BEB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMSegmentedControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boju.HMSegmentedControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEB416EF1FAEAE19006BEB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMSegmentedControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boju.HMSegmentedControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEB416F11FAEAE19006BEB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMSegmentedControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boju.HMSegmentedControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMSegmentedControl.app/HMSegmentedControl";
+			};
+			name = Debug;
+		};
+		BEB416F21FAEAE19006BEB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMSegmentedControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boju.HMSegmentedControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMSegmentedControl.app/HMSegmentedControl";
+			};
+			name = Release;
+		};
+		BEB416F41FAEAE19006BEB74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMSegmentedControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boju.HMSegmentedControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HMSegmentedControl;
+			};
+			name = Debug;
+		};
+		BEB416F51FAEAE19006BEB74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMSegmentedControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boju.HMSegmentedControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HMSegmentedControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEB416C01FAEAE19006BEB74 /* Build configuration list for PBXProject "HMSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB416EB1FAEAE19006BEB74 /* Debug */,
+				BEB416EC1FAEAE19006BEB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB416ED1FAEAE19006BEB74 /* Build configuration list for PBXNativeTarget "HMSegmentedControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB416EE1FAEAE19006BEB74 /* Debug */,
+				BEB416EF1FAEAE19006BEB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB416F01FAEAE19006BEB74 /* Build configuration list for PBXNativeTarget "HMSegmentedControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB416F11FAEAE19006BEB74 /* Debug */,
+				BEB416F21FAEAE19006BEB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEB416F31FAEAE19006BEB74 /* Build configuration list for PBXNativeTarget "HMSegmentedControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEB416F41FAEAE19006BEB74 /* Debug */,
+				BEB416F51FAEAE19006BEB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEB416BD1FAEAE19006BEB74 /* Project object */;
+}
