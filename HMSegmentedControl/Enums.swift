@@ -45,20 +45,3 @@ public enum HMSegmentedControlType {
     case images
     case textImages
 }
-
-public enum HMSegmentedControlImagePosition {
-    case behindText
-    case leftOfText
-    case rightOfText
-    case aboveText
-    case belowText
-    
-    var isImageInLineWidthText: Bool {
-        switch self {
-        case .leftOfText, .rightOfText:
-            return true
-        default:
-            return false
-        }
-    }
-}

@@ -16,7 +16,7 @@ class HMScrollView: UIScrollView {
             super.touchesBegan(touches, with: event)
         }
     }
-
+    
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         if !isDragging {
             next?.touchesMoved(touches, with: event)
